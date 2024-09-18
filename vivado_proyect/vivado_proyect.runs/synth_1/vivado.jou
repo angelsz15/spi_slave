@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Tue Sep 17 12:59:54 2024
+# Process ID: 24940
+# Current directory: C:/Users/Angel/Desktop/ICARO_24/fpga_spi_slave/V2.0/vivado_proyect/vivado_proyect.runs/synth_1
+# Command line: vivado.exe -log spi_slave.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source spi_slave.tcl
+# Log file: C:/Users/Angel/Desktop/ICARO_24/fpga_spi_slave/V2.0/vivado_proyect/vivado_proyect.runs/synth_1/spi_slave.vds
+# Journal file: C:/Users/Angel/Desktop/ICARO_24/fpga_spi_slave/V2.0/vivado_proyect/vivado_proyect.runs/synth_1\vivado.jou
+# Running On: DESKTOP-OK7LF37, OS: Windows, CPU Frequency: 3302 MHz, CPU Physical cores: 4, Host memory: 16965 MB
+#-----------------------------------------------------------
+source spi_slave.tcl -notrace

@@ -1,0 +1,5 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Angel/Desktop/ICARO_24/fpga_spi_slave/V2.0/vivado_proyect/vivado_proyect.sim/sim_1/synth/func/xsim/spi_slave_tb_func_synth.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module spi_slave
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Angel/Desktop/ICARO_24/fpga_spi_slave/V2.0/hw/spi_slave_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'spi_slave_tb'
