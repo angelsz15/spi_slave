@@ -1,0 +1,15 @@
+digraph spi_slave_fsm {
+  rankdir=TB;
+  fontname="Arial";
+  node [fontname="Arial", shape=circle, width=1.5];
+  edge [fontname="Arial"];
+
+  Idle [label="Idle" penwidth=2];
+  Reading [label="Reading" penwidth=2];
+
+  Idle -> Reading [label="in_spi_cs = '0'"];
+  Reading -> Reading [label="rising_edge(in_spi_clk) and position > 0"];
+  Reading -> Idle [label="rising_edge(in_spi_clk) and position = 0"];
+  Idle -> Idle [label="in_spi_cs = '1'"];
+  Reading -> Idle [label="in_spi_cs = '1'"];
+}
